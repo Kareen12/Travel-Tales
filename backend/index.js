@@ -15,7 +15,7 @@ const cors=require('cors')
 
 app.use(express.json())
 app.use(cookieParser())
-app.use(cors({origin:"https://traveltales-tau.vercel.app/",credentials:true}))
+app.use(cors({origin:"https://traveltales-dnvqz608v-kareenujjainiya222-gmailcom.vercel.app",credentials:true}))
 app.use("/images",express.static(path.join(__dirname,"/images")))
 app.use("/api/auth",authRoute)
 app.use("/api/users",userRoute)
