@@ -37,7 +37,7 @@ const Login = () => {
           <Link to="/register">Register</Link>
         </h3>
       </div>
-      <div className="w-full flex justify-center items-center h-[80vh] ">
+      <div className="w-full flex justify-center items-center h-[80vh]">
         <div className="flex flex-col justify-center items-center space-y-4 w-[80%] md:w-[25%]">
           <h1 className="text-xl font-bold text-left">
             Log in to your account
@@ -61,7 +61,7 @@ const Login = () => {
             Log in
           </button>
           {error && (
-            <h3 className="text-red-500 text-sm ">Something went wrong</h3>
+            <h3 className="text-red-500 text-sm">Something went wrong</h3>
           )}
           <div className="flex justify-center items-center space-x-2">
             <p>New here?</p>
